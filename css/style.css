@@ -68,3 +68,23 @@ a{
     justify-content: center;
     gap: 16px;
 }
+
+
+/* Third Section */
+.section-three{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 32px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.quote{
+    font-size: 28px;
+    font-style: italic;
+}
+.author{
+    display: flex;
+    justify-content: flex-end;
+}
