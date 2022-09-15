@@ -1,0 +1,33 @@
+img{
+    height: 100px;
+    width: auto;
+}
+/* Use this code to let the body fill the whole screen*/
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+/* Make the body a flex-container two hole the other sections and elements */
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header,
+header,
+ul,
+.section-one{
+    display: flex;
+}
+
+.header{
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+header{
+    justify-content: space-between;
+    align-items: center;
+}
