@@ -1,3 +1,5 @@
+/* General */
+
 img{
     height: 100px;
     width: auto;
@@ -12,16 +14,23 @@ html, body {
 
 body{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
-.header,
+
+
+/* First Section */
+
+.head-section,
 header,
 ul,
 .section-one{
     display: flex;
 }
 
-.header{
+/* Head-Section is the includes the first image etc, header is only the first line */
+
+.head-section{
+    padding: 16px;
     flex-direction: column;
     background-color: #1F2937;
     color: #F9FAF8;
@@ -30,4 +39,32 @@ ul,
 header{
     justify-content: space-between;
     align-items: center;
+}
+
+ul{
+    flex-direction: row;
+    gap:10px;
+}
+
+a{
+    
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+
+/* Second Section */
+.section-two{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
 }
