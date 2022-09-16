@@ -32,12 +32,21 @@ ul,
 
 .head-section{
     padding: 16px;
+    padding-left: 150px;
     flex-direction: column;
     background-color: #1F2937;
     color: #F9FAF8;
 }
 
+.container-head{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header{
+
     justify-content: space-between;
     align-items: center;
 }
@@ -52,6 +61,7 @@ a{
     text-decoration: none;
     color: #F9FAF8;
 }
+
 
 
 /* Second Section */
