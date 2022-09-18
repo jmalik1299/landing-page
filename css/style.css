@@ -26,6 +26,7 @@ header,
 ul,
 .section-one{
     display: flex;
+    gap: 300px;
 }
 
 /* Head-Section is the includes the first image etc, header is only the first line */
@@ -36,6 +37,7 @@ ul,
     flex-direction: column;
     background-color: #1F2937;
     color: #F9FAF8;
+    padding-bottom: 32px;
 }
 
 .container-head{
@@ -54,15 +56,48 @@ header{
 ul{
     flex-direction: row;
     gap:10px;
+
 }
 
 a{
-    
+    font-size: 14px;
     text-decoration: none;
     color: #F9FAF8;
 }
 
+.section-one-info{
+    display: flex;
+    flex-direction: column;
+}
 
+.section-one-info p{
+    display: flex;
+    text-align: left;
+    width: 300px;
+    height: auto;
+    
+}
+
+.section-one-info button{
+    width: 120px;
+    height: auto;
+    color: #E5E7EB;
+    border-radius: 5px;
+    background-color: #3882f6;
+    border: 1px solid #1F2937;
+    
+}
+
+
+.section-one img{
+    display: flex;
+    width: 250px;
+    height: 150px;
+}
+
+header h2{
+    font-size: 16px;
+}
 
 /* Second Section */
 .section-two{
