@@ -226,3 +226,12 @@ header h2{
     background-color: #3882f6;
     border: 1px solid white;
 }
+
+
+/* Footer Section */
+footer{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    color: #E5E7EB;
+}
